@@ -8,9 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Python.Runtime;
 using Python.Runtime.Codecs;
-
+using Microsoft.Scripting.Hosting;
 using IronPython.Hosting;
-using IronPython.Modules;
+
 using RDotNet;
 using System.IO;
 using System.Windows.Forms;
@@ -97,6 +97,7 @@ namespace WForm_R_and_Python_App
 
                 if (rdbPython.Checked)
                 {
+                    
                     lblMean.Text = "Python code not Ready";
                     lblSum.Text = "Python code not Ready";
                     lblSoustraction.Text = "Python code not Ready";
