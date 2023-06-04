@@ -129,14 +129,14 @@ namespace ChartExcelApp
             this.chart.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.chart.Legends.Add(legend1);
-            this.chart.Location = new System.Drawing.Point(388, 81);
+            this.chart.Location = new System.Drawing.Point(441, 81);
             this.chart.Name = "chart";
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
             series1.Name = "CropYield";
             series1.YValuesPerPoint = 6;
             this.chart.Series.Add(series1);
-            this.chart.Size = new System.Drawing.Size(1099, 602);
+            this.chart.Size = new System.Drawing.Size(918, 602);
             this.chart.TabIndex = 3;
             this.chart.Text = "chart1";
             // 
@@ -175,7 +175,7 @@ namespace ChartExcelApp
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1499, 675);
+            this.ClientSize = new System.Drawing.Size(1414, 675);
             this.Controls.Add(this.BtnDownload);
             this.Controls.Add(this.BtnReset);
             this.Controls.Add(this.BtnPlot);

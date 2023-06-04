@@ -181,6 +181,7 @@ namespace ChartExcelApp
         }
         private void BtnImport_Click(object sender, EventArgs e)
         {
+            EffacerDonnees();
             Import();
             Save();
             fillChart();
