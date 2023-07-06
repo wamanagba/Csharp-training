@@ -21,6 +21,8 @@ namespace Map03
             pictureBoxes = new List<PictureBox>();
         }
 
+
+
         private void button1_Click(object sender, EventArgs e)
         {
             // Clear existing PictureBoxes

@@ -109,5 +109,10 @@ namespace RunPythonRApp
 
 
         }
+
+        private void ScriptForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

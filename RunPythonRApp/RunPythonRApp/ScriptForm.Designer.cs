@@ -261,6 +261,7 @@ namespace RunPythonRApp
             this.Name = "ScriptForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ScriptForm";
+            this.Load += new System.EventHandler(this.ScriptForm_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
